@@ -1,3 +1,4 @@
+see pipeline_package_v2.zip to get the whole package
 # Computational Ad-Attention Screening Pipeline
 
 A lightweight, fully-local pipeline that predicts attention distribution on ad creative using published computational saliency algorithms + face detection + OCR-based AOI (Area-of-Interest) mapping — built to screen for competing focal points before creative goes to spend.
