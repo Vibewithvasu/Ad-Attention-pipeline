@@ -1,0 +1,127 @@
+{
+  "threshold_v2": 0.5434183478355408,
+  "probes": {
+    "pan_only (no object)": {
+      "v1": {
+        "active_pct": 47.2,
+        "regions_per_frame": 1.0
+      },
+      "v2": {
+        "active_pct": 0.0,
+        "regions_per_frame": 0.02
+      }
+    },
+    "fast pan + 2 bright fighters": {
+      "v1": {
+        "active_pct": 0.5,
+        "regions_per_frame": 1.0,
+        "target_share_pct": 79.2,
+        "top_region_on_target_pct": 100.0,
+        "mover_recall_pct": 100.0
+      },
+      "v2": {
+        "active_pct": 2.3,
+        "regions_per_frame": 2.51,
+        "target_share_pct": 99.5,
+        "top_region_on_target_pct": 100.0,
+        "mover_recall_pct": 100.0
+      }
+    },
+    "slow explore": {
+      "v1": {
+        "active_pct": 4.8,
+        "regions_per_frame": 1.0,
+        "target_share_pct": 88.3,
+        "top_region_on_target_pct": 100.0,
+        "mover_recall_pct": 100.0
+      },
+      "v2": {
+        "active_pct": 0.4,
+        "regions_per_frame": 1.1,
+        "target_share_pct": 93.2,
+        "top_region_on_target_pct": 93.2,
+        "mover_recall_pct": 93.2
+      }
+    },
+    "slow explore + sensor noise": {
+      "v1": {
+        "active_pct": 8.9,
+        "regions_per_frame": 1.0,
+        "target_share_pct": 36.5,
+        "top_region_on_target_pct": 81.4,
+        "mover_recall_pct": 81.4
+      },
+      "v2": {
+        "active_pct": 0.5,
+        "regions_per_frame": 1.07,
+        "target_share_pct": 93.2,
+        "top_region_on_target_pct": 93.2,
+        "mover_recall_pct": 93.2
+      }
+    },
+    "camera zoom + mover": {
+      "v1": {
+        "active_pct": 0.1,
+        "regions_per_frame": 1.0,
+        "target_share_pct": 94.7,
+        "top_region_on_target_pct": 100.0,
+        "mover_recall_pct": 100.0
+      },
+      "v2": {
+        "active_pct": 0.9,
+        "regions_per_frame": 1.0,
+        "target_share_pct": 100.0,
+        "top_region_on_target_pct": 100.0,
+        "mover_recall_pct": 100.0
+      }
+    },
+    "3 simultaneous movers": {
+      "v1": {
+        "active_pct": 0.2,
+        "regions_per_frame": 1.0,
+        "target_share_pct": 100.1,
+        "top_region_on_target_pct": 100.0,
+        "mover_recall_pct": 35.6
+      },
+      "v2": {
+        "active_pct": 1.9,
+        "regions_per_frame": 2.9,
+        "target_share_pct": 100.3,
+        "top_region_on_target_pct": 100.0,
+        "mover_recall_pct": 100.0
+      }
+    }
+  },
+  "speed_tuning_top_region_on_target_pct": {
+    "1px/frame": {
+      "v1": 100.0,
+      "v2": 100.0
+    },
+    "2px/frame": {
+      "v1": 100.0,
+      "v2": 100.0
+    },
+    "4px/frame": {
+      "v1": 100.0,
+      "v2": 100.0
+    },
+    "8px/frame": {
+      "v1": 100.0,
+      "v2": 100.0
+    },
+    "16px/frame": {
+      "v1": 100.0,
+      "v2": 98.3
+    }
+  },
+  "ratios (1.0 = ideal)": {
+    "v1": {
+      "vertical_bar_moving_right_over_horizontal_bar_moving_down": 194.4,
+      "equal_contrast_bright_over_dark": 2.63
+    },
+    "v2": {
+      "vertical_bar_moving_right_over_horizontal_bar_moving_down": 1.0,
+      "equal_contrast_bright_over_dark": 1.0
+    }
+  }
+}

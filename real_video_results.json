@@ -1,0 +1,51 @@
+{
+  "vtest": {
+    "frames": 400,
+    "size": "640x480",
+    "pct_pixels_flagged_mean": {
+      "v1": 0.8,
+      "v2": 2.8
+    },
+    "frames_with_>20pct_flagged_(pan_flooding)": {
+      "v1": "0/399",
+      "v2": "0/399"
+    },
+    "camera_motion_compensated_frames": "0/399",
+    "MOG2_proxy_AUC": {
+      "v1": 0.812,
+      "v2": 0.995,
+      "n_frames": 358
+    },
+    "MOG2_proxy_AUC_gain_v2_minus_v1_ci95": [
+      0.18,
+      0.186
+    ],
+    "v2_energy_outside_foreground_pct": 1.4
+  },
+  "bigbuckbunny": {
+    "frames": 132,
+    "size": "640x360",
+    "pct_pixels_flagged_mean": {
+      "v1": 6.3,
+      "v2": 2.6
+    },
+    "frames_with_>20pct_flagged_(pan_flooding)": {
+      "v1": "5/131",
+      "v2": "0/131"
+    },
+    "camera_motion_compensated_frames": "43/131"
+  },
+  "bikes": {
+    "frames": 250,
+    "size": "640x272",
+    "pct_pixels_flagged_mean": {
+      "v1": 4.9,
+      "v2": 3.6
+    },
+    "frames_with_>20pct_flagged_(pan_flooding)": {
+      "v1": "2/249",
+      "v2": "0/249"
+    },
+    "camera_motion_compensated_frames": "174/249"
+  }
+}

@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33030940/README.md)
 # Computational Ad-Attention Screening Pipeline
 
 A lightweight, fully-local pipeline that predicts attention distribution on ad creative using published computational saliency algorithms + face detection + OCR-based AOI (Area-of-Interest) mapping — built to screen for competing focal points before creative goes to spend.

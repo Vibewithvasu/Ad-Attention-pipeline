@@ -1,0 +1,26 @@
+{
+  "flat_red_button": {
+    "v1": 23.316267490036747,
+    "v2": 32.90870597679362
+  },
+  "bordered_red_button": {
+    "v1": 17.99997090601156,
+    "v2": 33.78433629137248
+  },
+  "equiluminant_red_on_grey": {
+    "v1": 14.660772354683102,
+    "v2": 32.582266348054425
+  },
+  "equiluminant_grey_control_(no_colour_contrast)": {
+    "v1": 0.0,
+    "v2": 7.182714233190561
+  },
+  "empty_page_(no_button)": {
+    "v1": 0.0,
+    "v2": 7.1341752223133925
+  },
+  "bordered_over_flat_ratio": {
+    "v1": 0.77,
+    "v2": 1.03
+  }
+}
